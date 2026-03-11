@@ -2,13 +2,13 @@
 
 An operating system acts as an intermediary between the computer hardware and the user.
 
-![[Pasted image 20260310165126.png]]
+![os|403](../assets/OS.png)
 
  ###### **User Interface for OS**
--Command-Line Interface (CLI), (e.g., Bash, PowerShell)
+- Command-Line Interface (CLI), (e.g., Bash, PowerShell)
 - Graphical User Interface (GUI), (e.g., Windows desktop, macOS Finder)
 
-###### **Component of an Operating System**
+##### **Component of an Operating System**
 
 There are two basic components of an Operating System.
 
@@ -17,10 +17,10 @@ There are two basic components of an Operating System.
 
 ---
 
-##### **Kernel**
+#### **Kernel**
  The kernel manages system resources, such as the CPU, memory and devices, ensuring everything works together smoothly and efficiently.
  
-![[Pasted image 20260310174125.png]]
+![functions|430](../assets/functions.png)
 
 ###### **Working of Kernel**
 
@@ -67,4 +67,6 @@ A system call is a controlled entry point that allows a user program to request 
 - After completing the task, the kernel switches back to user mode.
 - The result (success/failure/data) is returned to the program.
 - Without system calls, every program would need its own way to access hardware, leading to inconsistent and insecure systems.
- ![[Pasted image 20260310175333.png]]
+
+
+ ![syscalls|494](../assets/syscalls.png)
